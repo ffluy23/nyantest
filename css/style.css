@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #eee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background: #ddd;
+}
+
+.nav-btn.active {
+  background: #333;
+  color: white;
+}
